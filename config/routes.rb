@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   resources :energy_usages
-  root 'home#index'
+  root 'energy_usages#index'
 end
