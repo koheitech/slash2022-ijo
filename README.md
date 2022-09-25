@@ -2,6 +2,7 @@
 ## Description
 `IJO1.0` is Minimum Viable Product(MVP) of our project "IJO" for `//slash 2022`.
 This application is build to prove the feasibility of this project.
+This app is running at: https://slash2022ijo.herokuapp.com/energy_usages
 
 <img width="1356" alt="Screen Shot 2022-09-25 at 11 10 36" src="https://user-images.githubusercontent.com/91676145/192136624-0cdeccfb-d58c-48a3-9a38-754d7ce39756.png">
 
