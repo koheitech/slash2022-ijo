@@ -3,6 +3,9 @@
 `IJO1.0` is Minimum Viable Product(MVP) of our project "IJO" for `//slash 2022`.
 This application is build to prove the feasibility of this project.
 
+<img width="1356" alt="Screen Shot 2022-09-25 at 11 10 36" src="https://user-images.githubusercontent.com/91676145/192136624-0cdeccfb-d58c-48a3-9a38-754d7ce39756.png">
+
+
 ## Installation
 ### Prerequisites
 - `ruby: 2.6.6`
@@ -29,3 +32,4 @@ We may use a tool such as Postman.
     "energy_usages":"170.55"
 }
 ```
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/91676145/192136643-107f3e79-66d2-45fa-981c-ae4e6c1c71aa.gif)
