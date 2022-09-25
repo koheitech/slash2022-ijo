@@ -1,0 +1,2 @@
+class EnergyUsage < ApplicationRecord
+end

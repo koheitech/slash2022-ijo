@@ -1,0 +1,68 @@
+<div>
+  <canvas id="energyUsageChart" height="400" width="800"></canvas>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" type="text/javascript">
+
+    const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
+    const barGraphic = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: "days",
+            datasets: [{
+                label: "Energy Usage",
+                data: <%= @data %>,
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)'
+                ],
+                borderColor: [
+                    'rgb(255, 99, 132)'
+                ],
+                borderWidth: 1
+            }]
+        }
+    })
+</script>
+
+<script>
+    function getRandomNumber(min, max){
+        return Math.floor((Math.random() * max)+ min);
+    }
+    var min = 10;
+    var max = 100;
+    const ctx3 = document.getElementById('energyUsageChart').getContext('2d');
+    const chart = new Chart(ctx3, {
+        type: 'bar',
+        data: {
+            labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+            datasets: [{
+                label: 'Energy Usage',
+                data: <%= @data %>,
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
+
+
+

@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  loggedAt: 2022-09-25 05:47:37
+  cpu: 1.5
+  gpu: 1.5
+  network: 1.5
+  memory: 1.5
+  power: false
+
+two:
+  loggedAt: 2022-09-25 05:47:37
+  cpu: 1.5
+  gpu: 1.5
+  network: 1.5
+  memory: 1.5
+  power: false
